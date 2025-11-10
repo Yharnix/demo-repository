@@ -1,6 +1,7 @@
 ---
 on:
-  - push
+  pull_request:
+    types: [opened]
 permissions:
   id-token: write
 jobs:
